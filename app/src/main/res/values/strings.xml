@@ -2,6 +2,19 @@
     <string name="app_name">MidtermExam</string>
     <string name="calc_BMI">計算 BMI 值</string>
     <string name="calc_BMR">計算 BMR 值</string>
-    <string name="time_format">hh:mm:ss aaa\nMM/dd/yyyy</string>
+    <string name="time_format">hh:mm:ss aa\nMM/dd/yyyy</string>
     <string name="author">by 1104108142 資工系 莊人傑</string>
+    <string name="name">姓名：</string>
+    <string name="gender">性別：</string>
+    <string name="height">身高：</string>
+    <string name="weight">體重：</string>
+    <string name="waist">腰圍：</string>
+    <string name="hint_name">請輸入姓名</string>
+    <string name="hint_height">請輸入身高(cm)</string>
+    <string name="hint_weight">請輸入體重(kg)</string>
+    <string name="hint_waist">請輸入腰圍(cm)</string>
+    <string name="start_calc">開始計算</string>
+    <string name="go_to_home_page">回到首頁</string>
+    <string name="man">男</string>
+    <string name="female">女</string>
 </resources>

@@ -27,5 +27,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:27.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.github.navasmdc:MaterialDesign:1.+@aar'
+    compile 'com.wrapp.floatlabelededittext:library:0.0.6'
+    compile 'com.github.florent37:materialtextfield:1.0.7'
     testCompile 'junit:junit:4.12'
 }
