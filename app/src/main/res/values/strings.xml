@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MidtermExam</string>
+    <string name="calc_BMI">計算 BMI 值</string>
+    <string name="calc_BMR">計算 BMR 值</string>
+    <string name="time_format">hh:mm:ss aaa\nMM/dd/yyyy</string>
+    <string name="author">by 1104108142 資工系 莊人傑</string>
+</resources>
