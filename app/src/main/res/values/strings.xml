@@ -13,6 +13,7 @@
     <string name="hint_height">請輸入身高(cm)</string>
     <string name="hint_weight">請輸入體重(kg)</string>
     <string name="hint_waist">請輸入腰圍(cm)</string>
+    <string name="hint_birthday">請輸入生日(西元)</string>
     <string name="start_calc">開始計算</string>
     <string name="go_to_home_page">回到首頁</string>
     <string name="man">男</string>
