@@ -17,4 +17,15 @@
     <string name="go_to_home_page">回到首頁</string>
     <string name="man">男</string>
     <string name="female">女</string>
+    <string name="oops">Oops...</string>
+    <string name="calc_BMI_fail">名字不得為空且數值須大於 0</string>
+    <string name="severely_obese">重度肥胖</string>
+    <string name="moderately_obese">中度肥胖</string>
+    <string name="mild_obese">輕度肥胖</string>
+    <string name="overweight">體重過重</string>
+    <string name="normal">健康體位</string>
+    <string name="underweight">體重過輕</string>
+    <string name="calc_result">計算結果</string>
+    <string name="call_man">先生</string>
+    <string name="call_female">小姐</string>
 </resources>

@@ -6,6 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/mtf_cardHeight_final"
+    android:layout_marginBottom="@dimen/mtf_cardHeight_final"
     tools:context="com.jackgrence.midtermexam.CalcBMI">
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="match_parent"
