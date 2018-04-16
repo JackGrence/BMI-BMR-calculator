@@ -31,4 +31,6 @@
     <string name="call_female">小姐</string>
     <string name="birthday_fail">請使用 Picker 選擇生日且生日不要定在未來 :3</string>
     <string name="calc_BMR_fail">名字不得為空且數值須大於 0\n請使用 Picker 選擇生日且生日不要定在未來 :3</string>
+    <string name="BMI_title">計算BMI-身體質量指數</string>
+    <string name="BMR_title">計算BMR-基礎代謝率</string>
 </resources>

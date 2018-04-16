@@ -45,6 +45,7 @@ public class CalcBMR extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc_bmr);
+        setTitle(getString(R.string.BMR_title));
 
         mRdoGenderGroup = findViewById(R.id.rdoGenderGroup);
         mEdtxName = findViewById(R.id.edtxName);

@@ -35,6 +35,7 @@ public class CalcBMI extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc_bmi);
+        setTitle(getString(R.string.BMI_title));
 
         mRdoGenderGroup = findViewById(R.id.rdoGenderGroup);
 
