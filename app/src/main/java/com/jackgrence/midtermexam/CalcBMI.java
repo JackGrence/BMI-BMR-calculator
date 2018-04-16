@@ -83,21 +83,17 @@ public class CalcBMI extends AppCompatActivity
             else
                 msg = getString(R.string.underweight);
 
+            msg = user.getHelloMsg() +
+                    "\n您的 BMI = " + df.format(user.BMI) +
+                    "(" + msg + ")\n" +
+                    "腰圍 " + String.valueOf(user.waist) + " 公分";
             if (user.genderRadioId == R.id.rdoMan)
             {
-                msg = user.name + getString(R.string.call_man)
-                        + "您好\n您的 BMI = " + df.format(user.BMI)
-                        + "(" + msg + ")\n"
-                        + "腰圍 " + String.valueOf(user.waist) + " 公分";
                 if (user.waist >= 90)
                     msg += "(超過標準)";
             }
             else if (user.genderRadioId == R.id.rdoFemale)
             {
-                msg = user.name + getString(R.string.call_female)
-                        + "您好\n您的 BMI = " + df.format(user.BMI)
-                        + "(" + msg + ")\n"
-                        + "腰圍 " + String.valueOf(user.waist) + " 公分";
                 if (user.waist >= 80)
                     msg += "(超過標準)";
             }
@@ -106,16 +102,16 @@ public class CalcBMI extends AppCompatActivity
 
             mTTS.speak(msg, TextToSpeech.QUEUE_FLUSH, null, null);
             new SweetAlertDialog(this, dialogType)
-                .setTitleText(getString(R.string.calc_result))
-                .setContentText(msg)
-                .show();
+                    .setTitleText(getString(R.string.calc_result))
+                    .setContentText(msg)
+                    .show();
         }
         else
         {
             new SweetAlertDialog(this, SweetAlertDialog.ERROR_TYPE)
-                .setTitleText(getString(R.string.oops))
-                .setContentText(getString(R.string.calc_BMI_fail))
-                .show();
+                    .setTitleText(getString(R.string.oops))
+                    .setContentText(getString(R.string.calc_BMI_fail))
+                    .show();
         }
     }
 

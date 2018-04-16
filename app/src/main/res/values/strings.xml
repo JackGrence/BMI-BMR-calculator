@@ -29,4 +29,6 @@
     <string name="calc_result">計算結果</string>
     <string name="call_man">先生</string>
     <string name="call_female">小姐</string>
+    <string name="birthday_fail">請使用 Picker 選擇生日且生日不要定在未來 :3</string>
+    <string name="calc_BMR_fail">名字不得為空且數值須大於 0\n請使用 Picker 選擇生日且生日不要定在未來 :3</string>
 </resources>
